@@ -1,0 +1,15 @@
+pandas==2.3.3
+numpy==2.4.4
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.7.0
+tensorflow==2.21.0
+tensorflow-probability==0.25.0
+torch==2.11.0
+torchvision==0.26.0
+streamlit==1.56.0
+python-colourlovers==0.1.1
+tqdm==4.67.3
+mlflow==3.11.1
