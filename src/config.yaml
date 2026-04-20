@@ -1,0 +1,6 @@
+data:
+  raw_dir: data/raw
+  target_per_mood: 800
+  max_pages_per_keyword: 5
+  results_per_page: 100
+  request_delay: 0.5

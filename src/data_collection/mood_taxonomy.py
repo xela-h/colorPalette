@@ -3,7 +3,7 @@ MOOD_TAXONOMY = {
     "euphoria", "ecstatic", "elated", "bliss", "blissful",
     "exhilarated", "exhilaration", "rapture", "overjoyed",
     "festival", "celebration", "peak", "overwhelming joy",
-    "transcendent", "high", "rush", "electric joy", "radiant",
+    "high", "rush", "electric joy", "radiant",
     "vivid", "dazzling", "explosive", "luminous", "glee"
 ],
 
@@ -12,15 +12,15 @@ MOOD_TAXONOMY = {
     "childlike", "childish", "cartoon", "cartoonish", "bouncy",
     "bubbly", "lighthearted", "carefree", "cheerful", "goofy",
     "youthful", "colorful", "bright", "sprightly", "lively",
-    "cheeky", "animated", "poppy", "candy", "sweet"
+    "cheeky", "animated", "poppy", "candy"
 ],
 
 "fierce": [
     "bold", "aggressive", "intense", "powerful", "strong",
-    "sharp", "striking", "dominant", "forceful", "raw",
-    "edgy", "hard", "tough", "ferocious", "savage",
-    "primal", "unstoppable", "defiant", "unapologetic",
-    "confrontational", "warrior", "battle", "conflict", "war"
+    "sharp", "striking", "dominant", "forceful",
+    "edgy", "hard", "tough", "ferocious",
+    "unstoppable", "defiant", "unapologetic",
+    "confrontational", "warrior", "battle", "war"
 ],
 
 "electric": [
@@ -42,15 +42,14 @@ MOOD_TAXONOMY = {
 "joyful": [
     "joy", "happy", "happiness", "delight", "delightful",
     "upbeat", "positive", "smile", "smiling", "laugh",
-    "laughter", "sunny", "sunshine", "warm", "warmth",
-    "optimistic", "optimism", "gleeful", "content", "pleasant",
-    "merry", "jolly", "bright", "glowing", "radiant"
+    "laughter", "sunny", "sunshine",
+    "gleeful", "content", "pleasant",
+    "merry", "jolly"
 ],
 
 "romantic": [
-    "romance", "love", "loving", "affectionate", "affection",
-    "tender", "soft", "sweet", "intimate", "intimacy",
-    "valentine", "rose", "roses", "blush", "pink",
+    "love", "loving", "affectionate", "affection",
+    "intimate", "intimacy", "valentine", "rose", "roses",
     "candlelight", "candlelit", "couple", "darling", "cherish",
     "adore", "adoration", "sentimental", "heartfelt", "gentle love"
 ],
@@ -58,9 +57,9 @@ MOOD_TAXONOMY = {
 "nostalgic": [
     "nostalgia", "memory", "memories", "remember", "remembrance",
     "childhood", "vintage", "retro", "old", "antique",
-    "faded", "weathered", "worn", "timeworn", "sepia",
-    "golden age", "yesteryear", "past", "longing", "wistful",
-    "bittersweet memory", "keepsake", "heirloom", "classic", "old school"
+    "faded", "worn", "weathered", "timeworn", "sepia",
+    "golden age", "yesteryear", "past", "wistful",
+    "keepsake", "heirloom", "classic", "old school"
 ],
 
 "cozy": [
@@ -68,11 +67,11 @@ MOOD_TAXONOMY = {
     "hygge", "homey", "homely", "cottage", "cabin",
     "fireplace", "hearth", "blanket", "knit", "woolen",
     "autumn", "fall", "amber", "candle", "hot cocoa",
-    "safe", "nesting", "intimate", "rustic", "humble"
+    "safe", "nesting", "rustic", "humble"
 ],
 
 "hopeful": [
-    "hope", "hopeful", "optimism", "optimistic", "uplifting",
+    "hope", "optimism", "optimistic", "uplifting",
     "dawn", "sunrise", "morning", "new beginning", "fresh start",
     "growth", "bloom", "spring", "renewal", "rebirth",
     "possibility", "potential", "light", "golden", "aspire",
@@ -83,7 +82,7 @@ MOOD_TAXONOMY = {
     "serenity", "calm", "calming", "still", "stillness",
     "quiet", "quietude", "peaceful", "peace", "placid",
     "undisturbed", "clear", "clarity", "pure", "pristine",
-    "open", "airy", "light", "blue", "sky",
+    "open", "airy", "blue", "sky",
     "lake", "water", "glass", "smooth", "untroubled"
 ],
 
@@ -96,9 +95,9 @@ MOOD_TAXONOMY = {
 ],
 
 "dreamy": [
-    "dream", "dreams", "dreaming", "surreal", "fantasy",
+    "dream", "dreams", "dreaming", "fantasy",
     "whimsy", "hazy", "haze", "soft focus", "blur",
-    "lavender", "lilac", "purple", "pastel", "muted",
+    "lavender", "lilac", "purple", "pastel",
     "half asleep", "sleepy", "drowsy", "dusk", "twilight",
     "reverie", "daydream", "imaginary", "otherworldly", "floating"
 ],
@@ -112,11 +111,12 @@ MOOD_TAXONOMY = {
 ],
 
 "ethereal": [
-    "ethereal", "otherworldly", "celestial", "heavenly", "divine",
+    "otherworldly", "heavenly", "divine",
     "angelic", "transcendent", "spiritual", "sacred", "holy",
     "mist", "misty", "fog", "foggy", "translucent",
     "transparent", "luminous", "glow", "shimmer", "iridescent",
-    "cloud", "clouds", "weightless", "barely there", "gossamer"
+    "cloud", "clouds", "weightless", "barely there", "gossamer",
+    "celestial"
 ],
 
 "melancholic": [
@@ -129,7 +129,7 @@ MOOD_TAXONOMY = {
 
 "somber": [
     "dark", "darkness", "dim", "shadow", "shadowy",
-    "muted", "understated", "quiet grief", "mourning", "funeral",
+    "understated", "quiet grief", "mourning", "funeral",
     "loss", "absence", "empty", "void", "hollow",
     "grave", "serious", "solemn", "solemnity", "reverent",
     "black", "charcoal", "slate", "deep", "heavy"
@@ -138,13 +138,13 @@ MOOD_TAXONOMY = {
 "lonely": [
     "loneliness", "alone", "solitude", "isolated", "isolation",
     "abandoned", "forgotten", "invisible", "unseen", "distant",
-    "cold", "empty room", "silence", "quiet", "desolate",
+    "cold", "empty room", "silence", "desolate",
     "desolation", "withdrawn", "disconnected", "adrift", "lost",
-    "exile", "outcast", "hollow", "yearning", "missing"
+    "exile", "outcast", "yearning", "missing", "hollow"
 ],
 
 "anxious": [
-    "anxiety", "anxious", "nervous", "nervousness", "worry",
+    "anxiety", "nervous", "nervousness", "worry",
     "worried", "uneasy", "unease", "restless", "restlessness",
     "agitated", "agitation", "unsettled", "on edge", "tense",
     "tension", "stress", "stressed", "overwhelmed", "frantic",
@@ -152,23 +152,23 @@ MOOD_TAXONOMY = {
 ],
 
 "dreadful": [
-    "dread", "horror", "horrifying", "terrifying", "terror",
+    "horror", "horrifying", "terrifying", "terror",
     "fear", "fearful", "sinister", "ominous", "foreboding",
-    "menacing", "threatening", "dark", "evil", "malevolent",
+    "menacing", "threatening", "evil", "malevolent",
     "gothic", "macabre", "morbid", "grim", "bleak",
-    "abyss", "void", "blood", "crimson", "nightmare"
+    "abyss", "blood", "crimson", "nightmare"
 ],
 
 "mysterious": [
     "mystery", "enigma", "enigmatic", "unknown", "hidden",
     "secret", "secretive", "cryptic", "obscure", "occult",
-    "shadow", "shadows", "dark", "depth", "depths",
+    "depth", "depths",
     "intrigue", "intriguing", "mystical", "arcane", "esoteric",
     "veiled", "shrouded", "elusive", "ambiguous", "unseen"
 ],
 
 "bittersweet": [
-    "bittersweet", "mixed feelings", "complex", "conflicted",
+    "mixed feelings", "complex", "conflicted",
     "happy sad", "joy and pain", "beautiful sadness",
     "poignant", "poignancy", "farewell", "goodbye", "ending",
     "last", "final", "fading", "passing", "fleeting",
@@ -177,8 +177,8 @@ MOOD_TAXONOMY = {
 
 "haunted": [
     "haunting", "ghost", "ghostly", "spirit", "specter",
-    "apparition", "eerie", "uncanny", "unsettling", "creepy",
-    "abandoned", "derelict", "decayed", "decay", "forgotten",
+    "apparition", "eerie", "unsettling", "creepy",
+    "derelict", "decayed", "decay",
     "ruins", "ruin", "old house", "memory", "remnant",
     "trace", "echo", "left behind", "lingering", "aftermath"
 ],
@@ -186,57 +186,58 @@ MOOD_TAXONOMY = {
 "contemplative": [
     "contemplation", "reflection", "reflective", "thoughtful",
     "thought", "deep", "introspective", "introspection", "philosophical",
-    "philosophical", "meditative", "pensive", "brooding", "pondering",
+    "meditative", "pensive", "brooding", "pondering",
     "quiet mind", "intellectual", "wisdom", "knowing", "awareness",
-    "stillness", "inward", "solitary thought", "observation", "wondering"
+    "inward", "solitary thought", "observation", "wondering"
 ],
 
 "turbulent": [
     "turbulence", "chaos", "chaotic", "storm", "stormy",
-    "tempest", "wild", "violent", "conflict", "struggle",
+    "tempest", "violent", "conflict", "struggle",
     "clash", "discord", "disorder", "upheaval", "unrest",
-    "tension", "volatile", "unstable", "raging", "fierce",
-    "hurricane", "tornado", "wave", "crash", "breaking"
+    "volatile", "unstable", "raging",
+    "hurricane", "tornado", "wave", "crash", "breaking", "fierce"
 ],
 
 "ancient": [
-    "old", "ancient", "archaic", "prehistoric", "primordial",
+    "archaic", "prehistoric", "primordial",
     "mythic", "mythical", "legend", "legendary", "historical",
-    "history", "relic", "artifact", "ruins", "stone",
-    "earth", "earthy", "terra", "clay", "ochre",
-    "bronze", "iron", "worn", "weathered", "timeless"
+    "history", "relic", "artifact", "stone",
+    "terra", "clay", "ochre",
+    "bronze", "iron", "timeless"
 ],
 
 "cosmic": [
     "cosmos", "space", "universe", "galaxy", "galactic",
-    "nebula", "star", "stars", "stellar", "celestial",
+    "nebula", "star", "stars", "stellar",
     "astronomical", "astral", "orbit", "planet", "planetary",
-    "void", "infinite", "infinity", "dark matter", "supernova",
+    "infinite", "infinity", "dark matter", "supernova",
     "aurora", "northern lights", "deep space", "interstellar", "midnight sky"
 ],
 
 "feral": [
     "wild", "wilderness", "untamed", "raw", "primal",
-    "animal", "instinct", "nature", "savage", "feral",
-    "beast", "predator", "hunt", "jungle", "forest",
-    "earth", "mud", "soil", "bark", "stone",
+    "animal", "instinct", "savage",
+    "beast", "predator", "hunt", "jungle",
+    "earth", "earthy", "mud", "soil", "bark",
     "survival", "primitive", "raw nature", "unfiltered", "rough"
 ],
 
 "liminal": [
-    "liminal", "threshold", "in between", "transition", "transitional",
+    "threshold", "in between", "transition", "transitional",
     "border", "boundary", "edge", "neither here nor there",
     "waiting", "suspended", "pause", "between", "passage",
-    "corridor", "hallway", "stairwell", "dusk", "dawn",
-    "twilight", "midnight", "empty space", "airport", "hotel"
+    "corridor", "hallway", "stairwell",
+    "twilight", "midnight", "empty space", "airport", "hotel",
+    "dawn"
 ],
 
 "uncanny": [
-    "uncanny", "strange", "strange beauty", "odd", "unusual",
-    "unsettling", "off", "wrong", "familiar but wrong",
+    "strange", "strange beauty", "odd", "unusual",
+    "off", "wrong", "familiar but wrong",
     "surreal", "dreamlike", "distorted", "warped", "twisted",
     "glitch", "broken", "fractured", "displaced", "dissonant",
-    "uncomfortable", "eerie calm", "too quiet", "artificial", "hollow"
+    "uncomfortable", "eerie calm", "too quiet", "artificial"
 ],
 }
 
